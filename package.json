@@ -1,16 +1,22 @@
 {
-  "name": "portfolio",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^2.4.4"
-  },
-  "dependencies": {
-    "nodejs": "0.0.0",
-    "three": "^0.131.1"
-  }
+    "name": "portfolio",
+    "description": "mine portfolio",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview"
+    },
+    "devDependencies": {
+        "vite": "^2.4.4"
+    },
+    "dependencies": {
+        "nodejs": "0.0.0",
+        "three": "^0.131.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/UmeshDev09/portfolio.git"
+    }
+
 }
