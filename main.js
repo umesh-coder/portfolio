@@ -63,12 +63,12 @@ function addStar() {
 
 Array(200).fill().forEach(addStar);
 
-const spaceTexture = new THREE.TextureLoader().load('img/space.jpg');
+const spaceTexture = new THREE.TextureLoader().load('https://ik.imagekit.io/ziolnpqmph/portfolio/space_Oa7wx-qK3.jpg');
 scene.background = spaceTexture;
 
 //ava
 
-const jeffTexture = new THREE.TextureLoader().load('img/um.jpeg');
+const jeffTexture = new THREE.TextureLoader().load('https://ik.imagekit.io/ziolnpqmph/portfolio/um_LV11ey-Xu.jpeg');
 
 const jeff = new THREE.Mesh(
     new THREE.BoxGeometry(3, 3, 3),
@@ -80,8 +80,8 @@ const jeff = new THREE.Mesh(
 scene.add(jeff);
 
 
-const mooonTexture = new THREE.TextureLoader().load('img/moon.jpg');
-const newTexture = new THREE.TextureLoader().load('img/normal.jpg');
+const mooonTexture = new THREE.TextureLoader().load('https://ik.imagekit.io/ziolnpqmph/portfolio/moon_5EJEfJryr.jpg');
+const newTexture = new THREE.TextureLoader().load('https://ik.imagekit.io/ziolnpqmph/portfolio/normal_gvfPhccNFsP.jpg');
 
 
 const moon = new THREE.Mesh(
